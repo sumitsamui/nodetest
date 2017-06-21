@@ -49,6 +49,7 @@ fs.readFile('test.txt',function(err,data)
     if(err)
     {
         console.log(err.stack);
+        console.log("error happening...");
         return;
     }
     //else
